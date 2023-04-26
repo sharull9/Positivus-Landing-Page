@@ -73,10 +73,38 @@ function Testimonials() {
               </button>
             </div>
             <div className="w-4/6 flex justify-center items-center text-primary">
-              <FiberManualRecordIcon />
-              <FiberManualRecordOutlinedIcon />
-              <FiberManualRecordOutlinedIcon />
-              <FiberManualRecordOutlinedIcon />
+              {index == 1 && (
+                <>
+                  <FiberManualRecordIcon />
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordOutlinedIcon />
+                </>
+              )}
+              {index == 2 && (
+                <>
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordIcon />
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordOutlinedIcon />
+                </>
+              )}
+              {index == 3 && (
+                <>
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordIcon />
+                  <FiberManualRecordOutlinedIcon />
+                </>
+              )}
+              {index == 4 && (
+                <>
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordOutlinedIcon />
+                  <FiberManualRecordIcon />
+                </>
+              )}
             </div>
             <div className="w-1/6 flex justify-center items-center">
               <button disabled={disabledfor} onClick={forward}>
