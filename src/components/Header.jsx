@@ -14,7 +14,7 @@ function Header() {
       </div>
       <div className="relative flex flex-row-reverse">
         <button
-          className={`w-12 h-10 flex justify-center items-center md:hidden z-10 transition-all duration-300 ${
+          className={`w-12 h-10 flex justify-center items-center z-10 transition-all duration-300 ${
             menu ? "text-white" : "text-dark"
           }`}
           onClick={() => {

@@ -3,23 +3,29 @@
 @tailwind utilities;
 
 @layer base {
+  ::-webkit-scrollbar {
+    @apply w-0.5 h-1;
+  }
+  ::-webkit-scrollbar-thumb {
+    @apply bg-green-300;
+  }
   h1 {
-    @apply text-[43px] md:text-[60px] font-medium;
+    @apply text-[43px] font-medium;
   }
   h2 {
-    @apply text-[36px] md:text-[40px] font-medium;
+    @apply text-[36px] font-medium;
   }
   h3 {
-    @apply text-[26px] md:text-[30px] font-medium;
+    @apply text-[26px] font-medium;
   }
   h4 {
-    @apply text-[18px] md:text-[20px] font-medium;
+    @apply text-[18px] font-medium;
   }
   p {
-    @apply text-[16px] md:text-[18px];
+    @apply text-[16px];
   }
   .btn-primary {
-    @apply w-full md:w-1/2 h-16 bg-dark text-light text-[20px] rounded-xl hover:bg-primary hover:text-dark transition-all duration-300;
+    @apply w-full h-16 bg-dark text-light text-[20px] rounded-xl hover:bg-primary hover:text-dark transition-all duration-300;
   }
   button:disabled {
     @apply opacity-50;

@@ -4,7 +4,7 @@ import img from "../../public/assets/Illustration.svg";
 
 function HeroSection() {
   return (
-    <section className="px-5 gap-[20px] flex flex-col md:grid md:grid-cols-2 md:grid-rows-2">
+    <section className="px-5 gap-[20px] flex flex-col">
       <div>
         <h1>Navigating the digital landscape for success</h1>
       </div>
